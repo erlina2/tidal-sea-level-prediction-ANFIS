@@ -24,4 +24,4 @@ result_identifikasi_variabel= pd.DataFrame(rows, columns=['x1 (2 jam sebelumnya)
 #print(result_df.head(10))  # Tampilkan 10 hasil pertama agar sesuai dengan contoh
 
 # Simpan hasil dalam file CSV
-result_identifikasi_variabel.to_csv('data_latih.csv', index=False)
+result_identifikasi_variabel.to_csv('data_input.csv', index=False)
