@@ -2,10 +2,10 @@ import pandas as pd # #Digunakan untuk membaca dan menyimpan data
 import numpy as np # Digunakan untuk operasi matematis
 
 # Membaca file csv untuk data latih
-data_latih = pd.read_csv('data_latih.csv')
+data_input = pd.read_csv('data_input.csv')
 
 # Ubah data menjadi array numpy dengan tipe data float
-data = data_latih.to_numpy(dtype=float)
+data = data_input.to_numpy(dtype=float)
 
 # Memisahkan fitur (x1 dan x2) dan target (y)
 X = data[:, :-1]  # Semua kolom kecuali yang terakhir (x1 dan x2)
